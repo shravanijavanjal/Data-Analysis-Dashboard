@@ -1,36 +1,46 @@
-#  Market Dynamics & Performance Insights Dashboard
+# Market Dynamics & Performance Insights Dashboard
 
-##  Project Objective
+## Project Objective
 To transform raw commercial data from **Market Dataset.xlsx** into an interactive, actionable business intelligence solution within **market-dataset-powerbi.pbix**. The goal is to track sales trends, evaluate market share, analyze customer/regional segments, and empower stakeholders with data-driven decision-making capabilities.
 
 ---
-##  Dataset Used
-- Dataset Used: <a href="https://github.com/shravanijavanjal/Data-Analysis-Dashboard/blob/main/Market%20Dataset.xlsx">Dataset</a>
----
 
-##  Key Performance Indicators (KPIs)
-* **Total Revenue / Sales:** The absolute monetary value generated from the market.
-* **Profit Margin (%):** Net profit divided by revenue to measure financial health across categories.
-* **Sales Growth Rate (YoY / MoM):** Percentage change in sales compared to previous periods.
-* **Average Order Value (AOV) / Unit Volume:** Total sales divided by the number of transactions/units sold.
-* **Customer Acquisition / Market Share:** Proportional performance of segments against the total market.
+## 📊 Dataset & Dashboard Quick Links
+* **Data Source:** [Download Market Dataset](https://github.com/shravanijavanjal/Data-Analysis-Dashboard/blob/main/Market%20Dataset.xlsx)
+* **Live View:** [View Dashboard Screenshot](https://github.com/shravanijavanjal/Data-Analysis-Dashboard/blob/main/Screenshot%20202026-06-28%2020235521.png)
 
 ---
-- Dashboard Interaction: <a href="https://github.com/shravanijavanjal/Data-Analysis-Dashboard/blob/main/Screenshot%20202026-06-28%2020235521.png">View Dashboard</a>
 
-##  Project Process
+## Key Performance Indicators (KPIs)
+* **Total Revenue / Sales:** Tracks the absolute monetary value generated from the market to monitor growth.
+* **Profit Margin (%):** Evaluates financial health by calculating net profit divided by revenue across different categories.
+* **Sales Growth Rate (YoY / MoM):** Measures the percentage change in sales compared to previous periods to spot seasonal trends.
+* **Average Order Value (AOV) / Unit Volume:** Analyzes the average spend per transaction and the total unit volume sold.
+* **Customer Acquisition / Market Share:** Monitors the proportional performance of business segments against the broader market.
+
+---
+
+## Project Process
 
 ### 1. Data Ingestion & ETL (Extract, Transform, Load)
 * Imported the raw data from **Market Dataset.xlsx** into Power BI's Power Query Editor.
-* Cleaned the data by handling missing values, fixing data types, removing duplicates, and standardizing categorical columns.
+* Cleaned and transformed the dataset by handling missing values, optimizing data types, removing duplicates, and standardizing categorical columns.
 
 ### 2. Data Modeling
-* Designed a star schema (or snowflake schema) by separating facts (sales/transactions) from dimensions (dates, geography, products).
-* Established active relationships between tables to ensure precise filtering and optimal dashboard performance.
+* Designed an optimized **Star Schema** data model by separating business facts (sales/transactions) from specific dimensions (dates, geography, and product details).
+* Established active relationships between tables to ensure precise cross-filtering and high dashboard performance.
 
 ### 3. DAX Calculations
-* Authored custom **DAX (Data Analysis Expressions)** measures and calculated columns for advanced metrics (e.g., Year-to-Date sales, profit margins, and period-over-period growth comparisons).
+* Authored custom **DAX (Data Analysis Expressions)** measures and calculated columns for advanced metrics, including Year-to-Date (YTD) sales, dynamic profit margins, and period-over-period growth comparisons.
 
 ### 4. Data Visualization & Dashboard Design
-* Developed an intuitive, interactive layout in **market-dataset-powerbi.pbix**.
-* Utilized dynamic charts (bar charts, line graphs, matrix tables, and map visuals) paired with slicers to allow stakeholders to drill down by time, region, and product category.
+* Developed an intuitive, interactive layout inside **market-dataset-powerbi.pbix**.
+* Utilized dynamic charts (bar charts, line graphs, matrix tables, and map visuals) paired with interactive slicers to allow stakeholders to seamlessly drill down by time, region, and product category.
+
+---
+
+## 🛠️ Tech Stack Used
+* **BI Platform:** Microsoft Power BI Desktop
+* **Data Transformation:** Power Query
+* **Modeling & Analytics:** DAX (Data Analysis Expressions)
+* **Data Source:** Microsoft Excel (`.xlsx`)
