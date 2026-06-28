@@ -4,6 +4,9 @@
 To transform raw commercial data from **Market Dataset.xlsx** into an interactive, actionable business intelligence solution within **market-dataset-powerbi.pbix**. The goal is to track sales trends, evaluate market share, analyze customer/regional segments, and empower stakeholders with data-driven decision-making capabilities.
 
 ---
+##  Dataset Used
+- <a href="https://github.com/shravanijavanjal/Data-Analysis-Dashboard/blob/main/Market%20Dataset.xlsx">Dataset</a>
+---
 
 ##  Key Performance Indicators (KPIs)
 * **Total Revenue / Sales:** The absolute monetary value generated from the market.
@@ -13,6 +16,8 @@ To transform raw commercial data from **Market Dataset.xlsx** into an interactiv
 * **Customer Acquisition / Market Share:** Proportional performance of segments against the total market.
 
 ---
+- Dashboard Interaction <a href="https://github.com/shravanijavanjal/Data-Analysis-Dashboard/blob/main/Screenshot%202026-06-28%20235521.png">View Dashboard</a>
+
 
 ##  Project Process
 
