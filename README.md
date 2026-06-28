@@ -5,18 +5,17 @@ To transform raw commercial data from **Market Dataset.xlsx** into an interactiv
 
 ---
 
-## 📊 Dataset & Dashboard Quick Links
-* **Data Source:** [Download Market Dataset](https://github.com/shravanijavanjal/Data-Analysis-Dashboard/blob/main/Market%20Dataset.xlsx)
-* **Live View:** [View Dashboard Screenshot](https://github.com/shravanijavanjal/Data-Analysis-Dashboard/blob/main/Screenshot%20202026-06-28%2020235521.png)
-
+##  Dataset & Dashboard 
+* **Dataset:** [Download Market Dataset](https://github.com/shravanijavanjal/Data-Analysis-Dashboard/blob/main/Market%20Dataset.xlsx)
+* **View Dashboard:** * **Live View:** [View Dashboard Screenshot](https://github.com/shravanijavanjal/Data-Analysis-Dashboard/blob/main/dashboard.png)
 ---
 
 ## Key Performance Indicators (KPIs)
-* **Total Revenue / Sales:** Tracks the absolute monetary value generated from the market to monitor growth.
-* **Profit Margin (%):** Evaluates financial health by calculating net profit divided by revenue across different categories.
-* **Sales Growth Rate (YoY / MoM):** Measures the percentage change in sales compared to previous periods to spot seasonal trends.
-* **Average Order Value (AOV) / Unit Volume:** Analyzes the average spend per transaction and the total unit volume sold.
-* **Customer Acquisition / Market Share:** Monitors the proportional performance of business segments against the broader market.
+* **Total Revenue :** Tracks the absolute monetary value generated from the market to monitor growth.
+* **Profit Margin :** Evaluates financial health by calculating net profit divided by revenue across different categories.
+* **Sales Growth Rate :** Measures the percentage change in sales compared to previous periods to spot seasonal trends.
+* **Average Order Value :** Analyzes the average spend per transaction and the total unit volume sold.
+* **Customer Acquisition :** Monitors the proportional performance of business segments against the broader market.
 
 ---
 
@@ -39,7 +38,7 @@ To transform raw commercial data from **Market Dataset.xlsx** into an interactiv
 
 ---
 
-## 🛠️ Tech Stack Used
+##  Tech Stack Used
 * **BI Platform:** Microsoft Power BI Desktop
 * **Data Transformation:** Power Query
 * **Modeling & Analytics:** DAX (Data Analysis Expressions)
