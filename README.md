@@ -5,8 +5,8 @@ To transform raw commercial data from **Market Dataset.xlsx** into an interactiv
 
 ---
 
-##  Dataset & Dashboard 
-* **Dataset:** [Download Market Dataset](https://github.com/shravanijavanjal/Data-Analysis-Dashboard/blob/main/Market%20Dataset.xlsx)
+##  Dataset used
+- <a href="https://github.com/shravanijavanjal/Data-Analysis-Dashboard/blob/main/Market%20Dataset.xlsx">Dataset</a>
 * **View Dashboard:** * **Live View:** [View Dashboard Screenshot](https://github.com/shravanijavanjal/Data-Analysis-Dashboard/blob/main/dashboard.png)
 ---
 
