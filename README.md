@@ -5,7 +5,7 @@ To transform raw commercial data from **Market Dataset.xlsx** into an interactiv
 
 ---
 ##  Dataset Used
-- <a href="https://github.com/shravanijavanjal/Data-Analysis-Dashboard/blob/main/Market%20Dataset.xlsx">Dataset</a>
+- Dataset Used: <a href="https://github.com/shravanijavanjal/Data-Analysis-Dashboard/blob/main/Market%20Dataset.xlsx">Dataset</a>
 ---
 
 ##  Key Performance Indicators (KPIs)
@@ -16,8 +16,7 @@ To transform raw commercial data from **Market Dataset.xlsx** into an interactiv
 * **Customer Acquisition / Market Share:** Proportional performance of segments against the total market.
 
 ---
-- Dashboard Interaction <a href="https://github.com/shravanijavanjal/Data-Analysis-Dashboard/blob/main/Screenshot%202026-06-28%20235521.png">View Dashboard</a>
-
+- Dashboard Interaction: <a href="https://github.com/shravanijavanjal/Data-Analysis-Dashboard/blob/main/Screenshot%20202026-06-28%2020235521.png">View Dashboard</a>
 
 ##  Project Process
 
