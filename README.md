@@ -1,48 +1,51 @@
-# Market Dynamics & Performance Insights Dashboard
+#  Market Dynamics & Performance Insights Dashboard
 
-## Project Objective
-To transform raw commercial data from **Market Dataset.xlsx** into an interactive, actionable business intelligence solution within **market-dataset-powerbi.pbix**. The goal is to track sales trends, evaluate market share, analyze customer/regional segments, and empower stakeholders with data-driven decision-making capabilities.
+##  Project Objective
+The goal of this project is to take raw sales data from **Market Dataset.xlsx** and turn it into an easy-to-use, interactive dashboard in **market-dataset-powerbi.pbix**. This dashboard helps business owners track sales, see how well different regions and products are doing, and make smarter business decisions based on real facts.
 
 ---
 
-##  Dataset used
+##  Dataset Used
 - <a href="https://github.com/shravanijavanjal/Data-Analysis-Dashboard/blob/main/Market%20Dataset.xlsx">Dataset</a>
 - <a href="https://github.com/shravanijavanjal/Data-Analysis-Dashboard/blob/main/Screenshot%202026-06-28%20235521.png">Dashboard</a>
----
-
-## Key Performance Indicators (KPIs)
-* **Total Revenue :** Tracks the absolute monetary value generated from the market to monitor growth.
-* **Profit Margin :** Evaluates financial health by calculating net profit divided by revenue across different categories.
-* **Sales Growth Rate :** Measures the percentage change in sales compared to previous periods to spot seasonal trends.
-* **Average Order Value :** Analyzes the average spend per transaction and the total unit volume sold.
-* **Customer Acquisition :** Monitors the proportional performance of business segments against the broader market.
 
 ---
 
-## Project Process
+##  Key Performance Indicators (KPIs)
+* **Total Revenue:** The total amount of money made from sales to see how the business is growing.
+* **Profit Margin:** Shows how healthy the business is financially by checking how much actual profit is made from sales across different items.
+* **Sales Growth Rate:** Compares sales numbers over different months or years to find busy or slow seasons.
+* **Average Order Value:** Shows the average amount of money a customer spends on a single order, along with the total number of items sold.
+* **Customer Acquisition:** Tracks how well different parts of the business are performing compared to the whole market.
 
-### 1. Data Ingestion & ETL (Extract, Transform, Load)
-* Imported the raw data from **Market Dataset.xlsx** into Power BI's Power Query Editor.
-* Cleaned and transformed the dataset by handling missing values, optimizing data types, removing duplicates, and standardizing categorical columns.
+---
 
-### 2. Data Modeling
-* Designed an optimized **Star Schema** data model by separating business facts (sales/transactions) from specific dimensions (dates, geography, and product details).
-* Established active relationships between tables to ensure precise cross-filtering and high dashboard performance.
+##  Project Process
 
-### 3. DAX Calculations
-* Authored custom **DAX (Data Analysis Expressions)** measures and calculated columns for advanced metrics, including Year-to-Date (YTD) sales, dynamic profit margins, and period-over-period growth comparisons.
+### 1. Cleaning the Data (ETL)
+* Brought the raw data from **Market Dataset.xlsx** into Power BI's Power Query Editor.
+* Cleaned up the data by fixing empty spaces, correcting wrong data formats, removing repeating lines, and making sure all category names were neat and uniform.
 
-### 4. Data Visualization & Dashboard Design
-* Developed an intuitive, interactive layout inside **market-dataset-powerbi.pbix**.
-* Utilized dynamic charts (bar charts, line graphs, matrix tables, and map visuals) paired with interactive slicers to allow stakeholders to seamlessly drill down by time, region, and product category.
+### 2. Organizing the Data (Data Modeling)
+* Organized the tables cleanly using a **Star Schema** (connecting a main sales table with simple lookup tables like dates, locations, and product details).
+* Connected these tables together so that clicking on one chart automatically and smoothly updates all the other charts on the dashboard.
+
+### 3. Creating Custom Calculations (DAX)
+* Wrote custom formulas using **DAX** to calculate complex metrics, such as Year-to-Date (YTD) sales, profit percentages, and comparing this year's sales directly against last year's.
+
+### 4. Designing the Dashboard (Data Visualization)
+* Built a user-friendly, interactive dashboard page inside **market-dataset-powerbi.pbix**.
+* Used clear charts (like bar charts, line graphs, tables, and maps) along with clickable filters so users can easily look closer at specific dates, regions, or products.
 
 ---
 
 ##  Tech Stack Used
-* **BI Platform:** Microsoft Power BI Desktop
-* **Data Transformation:** Power Query
-* **Modeling & Analytics:** DAX (Data Analysis Expressions)
+* **Main Tool:** Microsoft Power BI Desktop
+* **Data Cleaning:** Power Query
+* **Formulas & Math:** DAX (Data Analysis Expressions)
 * **Data Source:** Microsoft Excel (`.xlsx`)
+
 ---
-## 🏁 Final Conclusion
-This Power BI project bridges the gap between raw backend transactional data and strategic business execution. By centralizing the metrics from **Market Dataset.xlsx** into a single, cohesive reporting interface, the dashboard successfully eliminates manual data aggregation, uncovers hidden regional trends, and highlights high-margin product opportunities. Ultimately, this business intelligence solution transitions the organization from reactive reporting to proactive, data-driven strategy forecasting.
+
+##  Final Conclusion
+This Power BI project takes messy spreadsheets and turns them into a clean, automated report. Instead of spending hours calculating numbers by hand from **Market Dataset.xlsx**, business leaders can now see their sales trends, profitable items, and top regions instantly in one place. This changes the way the business works—moving from simply looking at past results to actively planning for future growth.
