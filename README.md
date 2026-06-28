@@ -7,7 +7,7 @@ To transform raw commercial data from **Market Dataset.xlsx** into an interactiv
 
 ##  Dataset used
 - <a href="https://github.com/shravanijavanjal/Data-Analysis-Dashboard/blob/main/Market%20Dataset.xlsx">Dataset</a>
-* **View Dashboard:** * **Live View:** [View Dashboard Screenshot](https://github.com/shravanijavanjal/Data-Analysis-Dashboard/blob/main/dashboard.png)
+- <a href="https://github.com/shravanijavanjal/Data-Analysis-Dashboard/blob/main/Screenshot%202026-06-28%20235521.png">Dashboard</a>
 ---
 
 ## Key Performance Indicators (KPIs)
